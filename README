@@ -1,0 +1,13 @@
+1. A project how to use meson and ninja to build a project.
+
+2.You can build it as follow 3 step:
+
+meson .build
+
+ninja -C .build
+
+./.build/src/meson_ninja_helloworld
+
+3.I think it better than cmake or automake,enjoy it!
+
+
